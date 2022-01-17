@@ -4,6 +4,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: #212121;
   background-color: #e5e5e5;
 }
@@ -16,7 +17,6 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -31,8 +31,6 @@ body {
 }
 
 .link {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,8 +60,6 @@ body {
   background-color: #2f303a;
 }
 .hero-title {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -74,8 +70,6 @@ body {
 }
 
 .hero-button {
-  font-family: inherit;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -90,8 +84,6 @@ body {
   display: none;
 }
 .characteristic-title {
-  font-family: inherit;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -101,17 +93,12 @@ body {
 }
 
 .characteristic-text {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .teammember-name {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -120,9 +107,6 @@ body {
   color: inherit;
 }
 .teammember-title {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -151,16 +135,14 @@ body {
 }
 
 .address {
-  font-family: inherit;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: none;
   color: #ffffff;
 }
-.address .contacts {
+.contacts {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -170,8 +152,6 @@ body {
 }
 
 .filter-button {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -187,4 +167,18 @@ body {
 }
 .portfolio {
   background-color: #fff;
+}
+
+.example-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
